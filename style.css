@@ -1,16 +1,37 @@
 body {
-  background-color: #FFBBC1;
-
+  background-color: #ffbbc1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
 }
-
-section {
-  background-color: #C00000;
+body section {
+  width: 70%;
+  margin: 25% auto;
+  text-align: center;
 }
-
-p {
-  background-color: #FFDEE3;
+body section h1 {
+  color: white;
+  font-weight: 900;
 }
-
-.inner {
-  background-color: #FF6F77;
+body section .inner {
+  width: 70%;
+  height: 100%;
 }
+body section .texto {
+  background-color: whitesmoke;
+  width: 90%;
+  padding: 50px;
+  margin: 50px 0 auto;
+  flex-wrap: wrap;
+  border: #c00000 5px solid;
+}
+body section button {
+  margin-top: 25px;
+  background-color: #c00000;
+  color: white;
+  font-weight: 900;
+  height: 50%;
+  width: 20%;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */

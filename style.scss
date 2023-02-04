@@ -1,0 +1,40 @@
+body {
+  background-color: #ffbbc1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+
+  section {
+    width: 70%;
+    margin: 25% auto;
+    text-align: center;
+
+    h1 {
+      color: white;
+      font-weight: 900;
+    }
+    .inner {
+      width: 70%;
+      height: 100%;
+    }
+    .texto {
+      background-color: whitesmoke;
+      width: 90%;
+      padding: 50px;
+      margin: 50px 0 auto;
+      flex-wrap: wrap;
+      border: #c00000 5px solid;
+    }
+
+    button {
+      margin-top: 25px;
+      background-color: #c00000;
+      color: white;
+      font-weight: 900;
+      height: 50%;
+      width: 20%;
+      font-size: 25px;
+    }
+  }
+}
