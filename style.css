@@ -1,37 +1,42 @@
 body {
-  background-color: #ffbbc1;
+  background-color: #FF8896;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 70%;
+  text-align: center;
 }
 body section {
-  width: 70%;
-  margin: 25% auto;
-  text-align: center;
+  margin-top: 5%;
 }
 body section h1 {
   color: white;
   font-weight: 900;
+  font-size: 60px;
 }
-body section .inner {
-  width: 70%;
-  height: 100%;
+body section h2.texto {
+  height: 300px;
+  width: 900px;
 }
 body section .texto {
-  background-color: whitesmoke;
-  width: 90%;
-  padding: 50px;
-  margin: 50px 0 auto;
+  color: white;
+  font-weight: 700;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.464);
   flex-wrap: wrap;
+  align-content: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  word-break: break-all;
+  padding-right: 50px;
+  padding-left: 50px;
   border: #c00000 5px solid;
 }
 body section button {
-  margin-top: 25px;
+  margin-top: 30px;
   background-color: #c00000;
   color: white;
   font-weight: 900;
-  height: 50%;
-  width: 20%;
   font-size: 25px;
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
 }/*# sourceMappingURL=style.css.map */
