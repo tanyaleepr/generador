@@ -1,4 +1,10 @@
 {
+  "name": "Generador de Piropos",
+  "version": "1.0.0",
+  "description": "Un generador que le ayudara a obtener piropos al azar. Presione el boton que dice 'Piropear' y le aparecera un piropo.",
+  "keywords": [],
+  "author": "Tanya Gonzalez",
+  "license": "ISC",
   "dependencies": {
     "node-sass": "^8.0.0"
   }
