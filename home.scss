@@ -1,9 +1,10 @@
 body {
-  background-color: #FF8896;
+  background-color: #ff8896;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+  
 
   section {
     margin-top: 5%;
@@ -12,14 +13,16 @@ body {
       color: white;
       font-weight: 900;
       font-size: 60px;
+      text-transform: uppercase;
     }
 
     h2.texto {
       height: 300px;
       width: 900px;
-    }
-    .inner {
-    
+
+      @media only screen and (max-width: 1024px) {
+        width: 700px;
+      }
     }
 
     .texto {
@@ -32,14 +35,13 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      word-break: break-all; 
+      word-break: break-all;
       padding-right: 50px;
       padding-left: 50px;
       border: #c00000 5px solid;
+      width: auto;
 
-     
-      
-      
+   
     }
 
     button {
@@ -47,6 +49,7 @@ body {
       background-color: #c00000;
       color: white;
       font-weight: 900;
+   
       font-size: 25px;
       cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
     }
