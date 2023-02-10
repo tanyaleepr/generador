@@ -13,7 +13,7 @@ function generateWord() {
      'Ya quisiera semejante bombon derretirse sobre mi colchón.',
      'Hola, ¿eres ecologista? ¿Por qué no vienes y me plantas un beso en mi boca?',
      'Con ese cuerpo, unas fresas y un helado, te enseño yo lo que es el PECADO.',
-     'Eres como la chancla de mi madre: te veo venir y se me acelera el corazón.'
+     'Eres como la chancla de mi madre: te veo venir y se me acelera el corazón.',
      'Apuesto a que te llamas Google. Porque tienes todo lo que busco.',
      'Yo seré pacifista, pero por ti bombardeo el congreso.',
      'POR LA LUNA daría un beso, daría todo por el sol, pero por la luz de tu mirada, doy mi vida y mi CORAZÓN.',
