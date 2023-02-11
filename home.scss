@@ -1,21 +1,7 @@
-body {
-  background-color: #ff8896;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-  
-
   section {
     margin-top: 5%;
 
-    h1 {
-      color: white;
-      font-weight: 900;
-      font-size: 60px;
-      text-transform: uppercase;
-    }
-
+  
     h2.texto {
       height: 300px;
       width: 900px;
@@ -44,14 +30,6 @@ body {
    
     }
 
-    button {
-      margin-top: 30px;
-      background-color: #c00000;
-      color: white;
-      font-weight: 900;
-   
-      font-size: 25px;
-      cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym49.cur), auto !important;
-    }
+
   }
 }
